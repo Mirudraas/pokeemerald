@@ -1597,18 +1597,7 @@ static void MoveSelectionDisplayMoveDescription(void)
 u8 TypeEffectiveness(u8 targetId)
 {
     u8 moveFlags;
-    u16 move;
-    
-    if (gSaveBlock2Ptr->optionTypeEffective == 1)
-        return 10;
-
-    struct ChooseMoveStruct *moveInfo = (struct ChooseMoveStruct *)(&gBattleBufferA[gActiveBattler][4]);
-    move = moveInfo->moves[gMoveSelectionCursor[gActiveBattler]];
-    move = gBattleMons[gActiveBattler].moves[gMoveSelectionCursor[gActiveBattler]];
-    moveFlags = AI_TypeCalc(move, gBattleMons[targetId].species, gBattleMons[targetId].ability);
-
-    if (moveFlags & MOVE_RESULT_NO_EFFECT) {
-        return 26;  // 26 - no effect
+    u16 move;    struct ChooseMoveStruct *moveInfo = (struct ChooseMoveStruct *)(&gBattleBufferA[gActiveBattler][4]);        if (gSaveBlock2Ptr->optionTypeEffective == 1)        return 10;    move = moveInfo->moves[gMoveSelectionCursor[gActiveBattler]];    move = gBattleMons[gActiveBattler].moves[gMoveSelectionCursor[gActiveBattler]];    moveFlags = AI_TypeCalc(move, gBattleMons[targetId].species, gBattleMons[targetId].ability);    if (moveFlags & MOVE_RESULT_NO_EFFECT) {        return 26;  // 26 - no effect
     }
     else if (moveFlags & MOVE_RESULT_NOT_VERY_EFFECTIVE ) {
         return 25;  // 25 - not very effective
