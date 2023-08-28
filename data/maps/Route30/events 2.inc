@@ -1,0 +1,14 @@
+@
+@ DO NOT MODIFY THIS FILE! It is auto-generated from data/maps/Route30/map.json
+@
+
+Route30_ObjectEvents:
+	object_event 1, OBJ_EVENT_GFX_CAMPER, 8, 37, 0, MOVEMENT_TYPE_FACE_DOWN, 0, 0, TRAINER_TYPE_NONE, 0, NULL, 0
+	object_event 2, OBJ_EVENT_GFX_CAMPER, 8, 38, 0, MOVEMENT_TYPE_FACE_UP, 0, 0, TRAINER_TYPE_NONE, 0, NULL, 0
+	object_event 3, OBJ_EVENT_GFX_CAMPER, 9, 28, 0, MOVEMENT_TYPE_FACE_LEFT, 0, 0, TRAINER_TYPE_NONE, 0, NULL, 0
+	object_event 4, OBJ_EVENT_GFX_CAMPER, 8, -4, 0, MOVEMENT_TYPE_PLAYER, 0, 0, TRAINER_TYPE_NONE, 0, NULL, 0
+	object_event 5, OBJ_EVENT_GFX_BUG_CATCHER, 2, 13, 0, MOVEMENT_TYPE_PLAYER, 0, 0, TRAINER_TYPE_NONE, 0, NULL, 0
+
+Route30_MapEvents::
+	map_events Route30_ObjectEvents, NULL, NULL, NULL
+

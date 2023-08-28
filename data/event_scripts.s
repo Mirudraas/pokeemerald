@@ -1070,3 +1070,35 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
 	.include "data/scripts/change_deoxys_form.inc"
+
+	.include "data/maps/NewBarkTown_PlayerHouseF2/scripts.inc"
+
+.include "data/maps/NewBarkTown/scripts.inc"
+
+.include "data/maps/CherrygroveCity/scripts.inc"
+
+.include "data/maps/VioletCity/scripts.inc"
+
+.include "data/maps/AzaleaTown/scripts.inc"
+
+.include "data/maps/GoldenrodCity/scripts.inc"
+
+.include "data/maps/EcruteakCity/scripts.inc"
+
+.include "data/maps/OlivineCity/scripts.inc"
+
+.include "data/maps/CianwoodCity/scripts.inc"
+
+.include "data/maps/MahoganyTown/scripts.inc"
+
+.include "data/maps/BlackthornCity/scripts.inc"
+
+.include "data/maps/IndigoPlateau/scripts.inc"
+
+.include "data/maps/Route29/scripts.inc"
+
+.include "data/maps/NewBarkTown_PlayerHouseF1/scripts.inc"
+
+.include "data/maps/Route30/scripts.inc"
+
+.include "data/maps/Route31/scripts.inc"

@@ -1,5 +1,7 @@
 {
   "group_order": [
+    "gMapGroup_GSCTownsAndRoutes",
+    "gMapGroup_GSCIndoorNewBark",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -34,6 +36,26 @@
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
     "gMapGroup_IndoorRoute124"
+  ],
+  "gMapGroup_GSCTownsAndRoutes": [
+    "NewBarkTown",
+    "CherrygroveCity",
+    "VioletCity",
+    "AzaleaTown",
+    "GoldenrodCity",
+    "EcruteakCity",
+    "OlivineCity",
+    "CianwoodCity",
+    "MahoganyTown",
+    "BlackthornCity",
+    "IndigoPlateau",
+    "Route29",
+    "Route30",
+    "Route31"
+  ],
+  "gMapGroup_GSCIndoorNewBark": [
+    "NewBarkTown_PlayerHouseF1",
+    "NewBarkTown_PlayerHouseF2"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
