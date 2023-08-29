@@ -226,6 +226,39 @@
 #define MAPSEC_SAFARI_ZONE_AREA5            0xDC
 #define MAPSEC_SAFARI_ZONE_AREA6            0xDD
 
+//ty_difficulty_challenges
+#define MAPSEC_NEW_BARK_TOWN                0xDE
+#define MAPSEC_CHERRYGROVE_CITY             0xDF
+#define MAPSEC_VIOLET_CITY                  0xE0
+#define MAPSEC_AZALEA_TOWN                  0xE1
+#define MAPSEC_GOLDENROD_CITY               0xE2
+#define MAPSEC_ECRUTEAK_CITY                0xE3
+#define MAPSEC_OLIVINE_CITY                 0xE4
+#define MAPSEC_CIANWOOD_CITY                0xE5
+#define MAPSEC_MAHOGANY_TOWN                0xE6
+#define MAPSEC_BLACKTHORN_CITY              0xE7
+#define MAPSEC_ROUTE_29                     0xE8
+#define MAPSEC_ROUTE_30                     0xE9
+#define MAPSEC_ROUTE_31                     0xEA
+#define MAPSEC_ROUTE_32                     0xEB
+#define MAPSEC_ROUTE_33                     0xEC
+#define MAPSEC_ROUTE_34                     0xED
+#define MAPSEC_ROUTE_35                     0xEE
+#define MAPSEC_ROUTE_36                     0xEF
+#define MAPSEC_ROUTE_37                     0xF0
+#define MAPSEC_ROUTE_38                     0xF1
+#define MAPSEC_ROUTE_39                     0xF2
+#define MAPSEC_ROUTE_40                     0xF3
+#define MAPSEC_ROUTE_41                 	0xF4
+#define MAPSEC_ROUTE_42                     0xF5
+#define MAPSEC_ROUTE_43                     0xF6
+#define MAPSEC_ROUTE_44                     0xF7
+#define MAPSEC_ROUTE_45                     0xF8
+#define MAPSEC_ROUTE_46                     0xF9
+#define MAPSEC_DARK_CAVE                    0xFA
+#define MAPSEC_SLOWPOKE_WELL                0xFB
+#define MAPSEC_UNION_CAVE                   0xFC
+
 #define METLOC_SPECIAL_EGG                  0xFD
 #define METLOC_IN_GAME_TRADE                0xFE
 #define METLOC_FATEFUL_ENCOUNTER            0xFF

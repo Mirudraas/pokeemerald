@@ -199,6 +199,7 @@ static const u8 sMapName_DESERT_UNDERPASS[] = _("DESERT UNDERPASS");
 static const u8 sMapName_TRAINER_HILL[] = _("TRAINER HILL");
 static const u8 sMapName_DRACO_CHAMBER[] = _("DRACO CHAMBER");
 static const u8 sMapName_CAVE_OF_SHOCK[] = _("CAVE OF SHOCK");
+static const u8 sMapName_NEW_BARK_TOWN[] = _("NEW BARK TOWN");
 
 const struct RegionMapLocation gRegionMapEntries[] = {
     [MAPSEC_LITTLEROOT_TOWN] = { 4, 11, 1, 1, sMapName_LITTLEROOT_TOWN},
@@ -416,6 +417,7 @@ const struct RegionMapLocation gRegionMapEntries[] = {
     [MAPSEC_TRAINER_HILL] = { 8, 4, 1, 1, sMapName_TRAINER_HILL},
     [MAPSEC_DRACO_CHAMBER2] = { 15, 9, 1, 1, sMapName_DRACO_CHAMBER},
     [MAPSEC_CAVE_OF_SHOCK2] = { 9, 7, 1, 1, sMapName_CAVE_OF_SHOCK},
+    [MAPSEC_NEW_BARK_TOWN] = { 0, 0, 1, 1, sMapName_NEW_BARK_TOWN},
 };
 
 #endif // GUARD_DATA_REGION_MAP_REGION_MAP_ENTRIES_H

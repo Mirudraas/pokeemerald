@@ -33,7 +33,7 @@
 enum {
     REGION_HOENN,
     REGION_KANTO,
-    REGION_SEVII
+    REGION_JOHTO
 };
 
 
