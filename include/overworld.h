@@ -30,6 +30,13 @@
 #define TIME_OF_DAY_DAY 2
 #define TIME_OF_DAY_MAX TIME_OF_DAY_DAY
 
+enum {
+    REGION_HOENN,
+    REGION_KANTO,
+    REGION_SEVII
+};
+
+
 struct InitialPlayerAvatarState
 {
     u8 transitionFlags;
